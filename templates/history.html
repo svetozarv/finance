@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr style="border-bottom: 2pt solid black;">
+                <th class="text-start">Symbols</th>
+                <th class="text-end">Shares</th>
+                <th class="text-end">Price each</th>
+                <th class="text-end">Price total</th>
+                <th class="text-end">Transacted</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for dict in log %}
+                <tr>
+                    <td class="text-start"> {{ dict['symbol'] }} </td>
+                    <td class="text-start"> {{ dict['number'] }} </td>
+                    <td class="text-end"> {{ dict['price_each'] }} </td>
+                    <td class="text-end"> {{ dict['price_total'] }} </td>
+                    <td class="text-end"> {{ dict['time'] }} </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
