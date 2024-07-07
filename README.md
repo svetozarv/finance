@@ -72,3 +72,11 @@ CS50 problem set 9 final assignment
 - **login_required:** Ensures routes are only accessible to logged-in users.
 - **lookup:** Looks up stock quotes.
 - **usd:** Formats values as USD.
+
+## Acknowledgments
+
+- [CS50](https://cs50.harvard.edu/): For the CS50 library and inspiration.
+- [Flask](https://flask.palletsprojects.com/): For the web framework.
+
+---
+
