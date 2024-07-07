@@ -37,7 +37,7 @@ def login_required(f):
 def lookup(symbol):
     """Look up quote for symbol."""
 
-    my_token = 'sk_ca7fe61b38e94c759e4ab56517784be6'
+    my_token = '' # your token here 
 
     # Contact API
     try:
