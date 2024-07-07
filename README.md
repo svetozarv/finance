@@ -5,6 +5,8 @@ This project is a web application that simulates a simple stock trading platform
 ![screenshot 2024-07-07 13 42 15](https://github.com/svetozarv/finance/assets/106545363/e4f384a7-396e-48c6-b94a-a1bd44786417)
 ![screenshot 2024-07-07 13 42 10](https://github.com/svetozarv/finance/assets/106545363/d5adaa31-abf5-4af0-a38f-565dbb7c33d9)
 
+CS50 problem set 9 final assignment
+
 ## Features
 
 - **User Registration and Login**: Users can register and log in to the platform.
